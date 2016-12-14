@@ -1,6 +1,6 @@
 # Redux Action Wrapper
 
-This simplifies your `mapDispatchToProps` and removes a significant amount of boilerplate by wrapping your action modules with the dispatch function. It takes an object that contains functions and returns those functions wrapped in the dispatch method. The object is traversed recursively. Non-functions are ignored.
+This is a recursive version of `bindActionCreators`. It simplifies your `mapDispatchToProps` and removes a significant amount of boilerplate by wrapping your action modules with the dispatch function. It takes an object that contains functions and returns those functions wrapped in the dispatch method. The object is traversed recursively. Non-functions are ignored.
 
 ## Basic Usage
 
