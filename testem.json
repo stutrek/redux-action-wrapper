@@ -1,0 +1,12 @@
+{
+	"framework": "mocha+chai",
+	"src_files": [
+		"spec/modulefiller.js",
+		"index.js",
+		"spec/index.js"
+	],
+
+	"launch_in_dev": [
+		"phantomjs"
+	]
+}

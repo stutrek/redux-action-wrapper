@@ -1,0 +1,28 @@
+{
+  "name": "redux-action-wrapper",
+  "version": "1.0.0",
+  "description": "Simplifies mapDispatchToProps significantly",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "testem ci",
+    "start": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stutrek@github.com/stutrek/redux-action-wrapper.git"
+  },
+  "keywords": [
+    "redux",
+    "actions"
+  ],
+  "author": "Stu Kabakoff <sakabako@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stutrek/redux-action-wrapper/issues"
+  },
+  "homepage": "https://github.com/stutrek/redux-action-wrapper#readme",
+  "devDependencies": {
+    "testem": "^1.13.0"
+  }
+}
