@@ -23,7 +23,7 @@ function mapDispatchToProps (dispatch) {
 Only one function is provided.
 
 ```javascript
-var actions = actionWrapper(actionsObject, dispatch)
+var actions = actionWrapper({an object of actions}, dispatch)
 ```
 
 ### Arguments
@@ -46,7 +46,7 @@ this.props.actionName();
 // for nested objects
 this.props.userActions.load();
 
-// and double nested is the same
+// and deeply nested is the same
 this.props.userActions.preferences.setCity('NYC');
 ```
 
